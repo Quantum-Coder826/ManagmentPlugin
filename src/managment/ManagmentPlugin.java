@@ -3,12 +3,14 @@ package managment;
 import arc.*;
 import arc.util.*;
 import mindustry.*;
+import mindustry.game.*;
 import mindustry.content.*;
 import mindustry.game.EventType.*;
 import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.net.Administration.*;
 import mindustry.world.blocks.storage.*;
+import mindustry.game.Team.*;
 
 
 public  class ManagmentPlugin extends Plugin {
@@ -20,8 +22,8 @@ public  class ManagmentPlugin extends Plugin {
         handler.register("ping", "Return \"Pong!\"", arg -> { Call.sendMessage("Pong!"); });
 
         //command that will cause GameOver.
-        handler.<Player>register("GameOver", "End the game", arg -> {
-            Events.fire(new EventType.GameoverEvent());
+        handler.<Player>register("gameover", "End the game", arg -> {
+            Events.fire(new EventType.GameOverEvent(Team.crux));
         });
     }
 }
