@@ -1,0 +1,7 @@
+{
+    "name": "ManagmentPlugin",
+    "author": "QByte",
+    "main": "managment.ManagmentPlugin",
+    "description": "A plugin to manage a server.",
+    "version": 1.0
+}
