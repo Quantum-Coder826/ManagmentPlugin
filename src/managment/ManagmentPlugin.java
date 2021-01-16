@@ -12,7 +12,6 @@ import mindustry.net.Administration.*;
 import mindustry.world.blocks.storage.*;
 import mindustry.game.Team.*;
 
-
 public  class ManagmentPlugin extends Plugin {
     //register chat commands that can be invoked in-game
     @Override
