@@ -2,7 +2,7 @@
 Plugin to manage mindustery server via in-game chat.
 
 ## Installation
-Download the plugin jar file [here](https://github.com/Quantum-Coder826/ManagmentPlugin/releases)
+Download the plugin jar file [here](https://github.com/Quantum-Coder826/ManagmentPlugin/releases) or under releases.
 Put the plugin in the `<server folder location>/config/mods` folder
 
 ## Issues
