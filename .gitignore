@@ -158,3 +158,6 @@ gradle-app.setting
 .DS_Store
 Thumbs.db
 android/libs/
+.vs/VSWorkspaceState.json
+.vs/ManagmentPlugin/v16/.suo
+*.sqlite
